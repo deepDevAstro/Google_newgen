@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="alignCenter">Setting</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-split-pane when="xs" >
+    <!--  the side menu  -->
+    <ion-menu contentId="main">
+      
+    </ion-menu>
+  </ion-split-pane>
+  <ion-grid>
+    <ion-row>
+      <ion-col id="mvCenter">
+      <ion-avatar>
+        <img src="{{userImg}}">
+      </ion-avatar>
+    </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="mvCenter">
+        {{userName}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="mvCenter">
+        {{userId}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div id="container">
+    <ion-button size="large" color="danger" (click)="onLoginClick()">Log Out</ion-button>
+  </div>
+</ion-content>

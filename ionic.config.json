@@ -1,5 +1,7 @@
 {
   "name": "myGoogleApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

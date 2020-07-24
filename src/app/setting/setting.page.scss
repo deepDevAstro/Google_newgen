@@ -1,0 +1,29 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    transform: translateY(-50%);
+  }
+
+  ion-menu.split-pane-side.md.menu-type-overlay.menu-enabled.menu-side-start.menu-pane-visible.hydrated {
+    min-width: 65px !important;
+    max-width: 40px;
+  }
+
+  #mvCenter {
+    justify-content: center;
+    display: flex;  
+    font-size: large;
+  }
+
+  .alignCenter{
+    text-align: center;
+  }
+
+  ion-avatar { 
+    width: 80px;  
+    height: 80px;  
+}
